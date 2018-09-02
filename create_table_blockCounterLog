@@ -1,0 +1,6 @@
+CREATE TABLE [blockCounterLog] (
+	[id] int PRIMARY KEY auto increment,
+	[username] nvarchar (255),
+	[courseID] int,
+	[endDateTime] datetime
+);
