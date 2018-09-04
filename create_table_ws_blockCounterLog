@@ -1,4 +1,4 @@
-CREATE TABLE [blockCounterLog] (
+CREATE TABLE [ws_blockCounterLog] (
 	[id] int PRIMARY KEY auto increment,
 	[username] nvarchar (255),
 	[courseID] int,
